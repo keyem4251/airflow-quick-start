@@ -1,2 +1,11 @@
 .gitignore
 .idea
+/locally/airflow/logs
+/locally/airflow/airflow.cfg
+/locally/airflow/standalone_admin_password.txt
+/locally/airflow/airflow-webserver.pid
+/locally/airflow/webserver_config.py
+/locally/airflow/airflow.db
+/locally/venv
+/docker/logs
+/docker/plugins
