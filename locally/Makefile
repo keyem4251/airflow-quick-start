@@ -4,13 +4,13 @@ setup-airflow-venv-pip:
 airflow-db-init:
 	airflow db init
 
+USERNAME=admin
+
 airflow-user-create:
 	airflow users create \
-    --username admin \
-    --firstname Peter \
-    --lastname Parker \
+    --username ${USERNAME} \
     --role Admin \
-    --email spiderman@superhero.org
+    --email example@example.com
 
 airflow-webserver-start:
 	airflow webserver --port 8080
