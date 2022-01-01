@@ -64,7 +64,7 @@ with DAG(
 
     t3 = BashOperator(
         task_id="templated",
-        depends_on=False,
+        depends_on_past=False,
         bash_command=templated_command,
         params={"myparam": "Parameter I passed in"}
     )
