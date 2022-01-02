@@ -1,3 +1,5 @@
+export AIRFLOW_HOME=~/IdeaProjects/airflow-quick-start/locally/airflow
+
 setup-airflow-venv-pip:
 	./setup-airflow-venv-pip.sh
 
