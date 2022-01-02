@@ -17,7 +17,7 @@ default_args = {
 }
 
 with DAG(
-    "tutorial",
+    "tutorial example",
     default_args=default_args,
     description="A simple tutoril DAG.",
     schedule_interval=timedelta(days=1),
