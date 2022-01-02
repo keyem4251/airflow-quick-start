@@ -6,6 +6,7 @@
 /locally/airflow/airflow-webserver.pid
 /locally/airflow/webserver_config.py
 /locally/airflow/airflow.db
+/locally/airflow/dags/__pycache__
 /locally/venv
 /docker/logs
 /docker/plugins
